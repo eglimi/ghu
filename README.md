@@ -7,6 +7,10 @@ are found in (A), the content from (B) is added at the beginning of (A).
 
 ghu is written in Go.
 
+## Installation
+
+	go get github.com/eglimi/ghu
+
 ## Options
 
 	-path    The path to process.
@@ -22,4 +26,4 @@ except the required ones. Beware of vim's eol feature.
 
 ghu could be useful to replace header information in source code files.
 
-	./ghu -path <source_dir> -hfile <header_tpl> -ftype *.cpp
+	ghu -path <source_dir> -hfile <header_tpl> -ftype *.cpp
